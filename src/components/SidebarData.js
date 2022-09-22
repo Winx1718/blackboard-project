@@ -1,30 +1,30 @@
 import React from "react";
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
+import { FaDesktop, FaPaintBrush, FaChartBar } from "react-icons/fa";
+import { AiFillHome } from "react-icons/ai";
 
 export const SidebarData = [
   {
     title: "Home",
     path: "/",
-    icon: <AiIcons.AiFillHome />,
+    icon: <AiFillHome />,
     className: "nav-text",
   },
   {
     title: "Development",
     path: "/development",
-    icon: <FaIcons.FaDesktop />,
+    icon: <FaDesktop />,
     className: "nav-text",
   },
   {
     title: "Design",
     path: "/Design",
-    icon: <FaIcons.FaPenPaintBrush />,
+    icon: <FaPaintBrush />,
     className: "nav-text",
   },
   {
     title: "Marketing",
     path: "/Marketing",
-    icon: <FaIcons.FaChartSimple />,
+    icon: <FaChartBar />,
     className: "nav-text",
   },
 ];
