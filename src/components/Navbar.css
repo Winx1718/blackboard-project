@@ -19,11 +19,11 @@
   position: fixed;
   top: 0;
   left: -100%;
-  transition: 850ms;
+  transition: 1s;
 }
 .nav-menu.active {
   left: 0;
-  transition: 350ms;
+  transition: 0.75s;
 }
 .nav-text {
   display: flex;
@@ -47,6 +47,7 @@
 
 .nav-text a:hover {
   background-color: #1a83ff;
+  transition: 0.75s;
 }
 .nav-menu-items {
   width: 100%;
