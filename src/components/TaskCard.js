@@ -17,9 +17,14 @@ function TaskCard(props) {
   }
   function handleSubmit(event) {
     event.preventDefault();
-    alert(
-      `Your response has been recorded. Task ${task} was recorded on ${date} at ${time}, Thank you.`
-    );
+    if (task == null || time == null || date == null) {
+      alert(`Please fill out the entire form below.`);
+    } else {
+      alert(
+        `Your response has been recorded. Task ${task} was recorded on ${date} at ${time}, Thank you.`
+      );
+    }
+    console.log(date)
   }
   return (
     <div className="taskcard">
@@ -41,7 +46,7 @@ function TaskCard(props) {
           <p>Time Submitted:</p>
           <input type="time" onChange={handleTimeChange} />
         </div>
-        <input type="submit" className="button"/>
+        <input type="submit" className="button" />
       </form>
     </div>
   );
