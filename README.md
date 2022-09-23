@@ -1,3 +1,13 @@
+Title: BlackBoard Project
+
+Description: This is a Challenge created for Blackboard built with JSX, CSS3, and React.js. It contians a sliding sidebar menu and 3 individual pages with a form.
+
+The website is hosted on Netlify and can be opened with the following https://poetic-pudding-c68679.netlify.app/ link.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
