@@ -16,3 +16,8 @@
   justify-content: center;
   font-size: 3rem;
 }
+.home h1{
+  color: #060b26;
+  font-size: 4rem;
+  text-decoration: underline;
+}

@@ -18,6 +18,7 @@ function Navbar() {
           <Link to="#" className="menu-bars">
             <FaBars onClick={showSidebar} />
           </Link>
+          <p>Select a Department from the left sidebar</p>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
